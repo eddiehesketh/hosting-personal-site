@@ -1,0 +1,63 @@
+body{
+    background: rgb(71, 84, 97);
+    font-family: 'Open Sans';
+    color: rgb(196, 188, 188);
+    margin: 0;
+}
+
+
+
+img{
+    height: 25px;
+    width: 25px;
+    padding-top: 6px;
+}
+
+
+.flex-container{
+    padding-top: 275px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-container div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.quick-summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.quick-summary p{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.page-links{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-links h2{
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+.page-links h2 a{
+    text-decoration: none; 
+    font-weight: bold;
+    color: rgb(196, 188, 188);
+    transition: color 0.3s ease; 
+}
+.page-links h2 a:hover{
+    color: rgb(129, 134, 141); 
+}

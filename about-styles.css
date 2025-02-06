@@ -1,0 +1,72 @@
+body{
+    background: rgb(71, 84, 97);
+    font-family: 'Open Sans';
+    color: rgb(196, 188, 188);
+    margin: 0;
+}
+
+.text-container{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-box{
+    width: 730px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    overflow: hidden;
+}
+.text-box h2{
+    text-decoration: underline;
+}
+
+.text-box p{
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+.text-box h2 p{
+    text-align: left;
+
+}
+
+
+
+.page-links h2 a{
+    text-decoration: none; 
+    font-weight: bold;
+    color: rgb(196, 188, 188);
+    transition: color 0.3s ease; 
+}
+.page-links h2 a:hover{
+    color: rgb(129, 134, 141); 
+}
+
+hr {
+    border: 0; /* Removes the default border */
+    height: 2px; /* Sets the thickness */
+    background-color: rgb(196, 188, 188); /* Changes the color */
+    margin: 20px 0; /* Adds spacing around the line */
+    width: 80%; /* Adjusts the width */
+}
+ul li {
+line-height: 2;
+}
+
+ul li a, h3 a{
+    text-decoration: none; 
+    font-weight: bold;
+    color: rgb(196, 188, 188);
+    transition: color 0.3s ease; 
+}
+ul li a:hover, h3 a:hover{
+    color: rgb(129, 134, 141); 
+}
+
+
+
+
